@@ -6,10 +6,10 @@ import Login from '../../components/Login';
 const LoginPage = () => {
   return (
     <div>
-      <LanguageSelector onChange={function (language: string): void {
+      <LanguageSelector onChange={function (): void {
         throw new Error('Function not implemented.');
       } } />
-      <Login onLogin={function (phoneNumber: string): void {
+      <Login onLogin={function (): void {
         throw new Error('Function not implemented.');
       } } />
     </div>
