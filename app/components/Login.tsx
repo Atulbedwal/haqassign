@@ -1,4 +1,5 @@
 // app/components/Login.tsx
+"use client"
 import React, { useState } from 'react';
 
 const Login: React.FC<{ onLogin: (phoneNumber: string) => void }> = ({ onLogin }) => {
@@ -34,5 +35,4 @@ const Login: React.FC<{ onLogin: (phoneNumber: string) => void }> = ({ onLogin }
     </div>
   );
 };
-
 export default Login;
