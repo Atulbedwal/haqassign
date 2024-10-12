@@ -1,4 +1,5 @@
 // app/components/LanguageSelector.tsx
+"use client"
 import React from 'react';
 
 interface LanguageSelectorProps {

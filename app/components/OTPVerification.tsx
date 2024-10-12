@@ -1,4 +1,5 @@
 // app/components/OTPVerification.tsx
+"use client"
 import React, { useState } from 'react';
 
 const OTPVerification: React.FC<{ onVerify: () => void }> = ({ onVerify }) => {

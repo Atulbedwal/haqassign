@@ -1,4 +1,5 @@
 // app/components/PersonalDetails.tsx
+"use client"
 import React, { useState } from 'react';
 
 const PersonalDetails: React.FC<{ onComplete: (details: { name: string; gender: string; dob: string }) => void }> = ({ onComplete }) => {

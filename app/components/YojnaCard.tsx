@@ -1,4 +1,5 @@
 // app/components/YojnaCard.tsx
+"use client"
 import React, { useState } from 'react';
 
 interface YojnaCardProps {

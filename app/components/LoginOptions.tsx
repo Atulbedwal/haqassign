@@ -1,4 +1,5 @@
 // app/components/LoginOptions.tsx
+"use client"
 import React from 'react';
 
 interface LoginOptionsProps {

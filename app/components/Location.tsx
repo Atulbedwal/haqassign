@@ -1,4 +1,5 @@
 // app/components/Location.tsx
+"use client"
 import React, { useState } from 'react';
 
 const Location: React.FC<{ onLocationSubmit: (location: { state: string; district: string; pincode: string }) => void }> = ({ onLocationSubmit }) => {
