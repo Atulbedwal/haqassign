@@ -20,7 +20,7 @@ const Page: React.FC = () => {
       } else if (currentStep === 'intro2') {
         setCurrentStep('language');
       }
-    }, 5000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, [currentStep]);
