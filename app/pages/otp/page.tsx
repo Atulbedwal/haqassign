@@ -1,5 +1,5 @@
 // app/pages/otp/page.tsx
-"use client"; // This line is required for Client Components
+"use client"; 
 
 import React, { useState } from 'react';
 
